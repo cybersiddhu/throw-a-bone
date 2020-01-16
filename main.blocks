@@ -1,0 +1,43 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="eEQN.b[+)heX;PHLb1Jg">Player</variable><variable type="KIND_SpriteKind" id="hLgVCBA,rP/XKw55qJSI">Projectile</variable><variable type="KIND_SpriteKind" id="=Pg-=oRMKZQ#pRcivkB`">Food</variable><variable type="KIND_SpriteKind" id="l=}gxg0utQyHb9OF:N0X">Enemy</variable><variable id="de]w;Y`y$Vxr_*8}TJnN">pitcher</variable><variable id="QW-Ex}0WpMyNf8w(_cjp">projectile</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor"><value name="color"><shadow type="colorindexpicker"><field name="index">9</field></shadow></value><next><block type="variables_set"><field name="VAR" id="de]w;Y`y$Vxr_*8}TJnN">pitcher</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . f f f f . . . . . . . . . . 
+. . . . . . . . f f 1 1 1 1 f f . . . . . . . . 
+. . . . . . . f b 1 1 1 1 1 1 b f . . . . . . . 
+. . . . . f f f c 1 1 1 1 1 1 1 f . . . . . . . 
+. . . f c 1 1 1 c d 1 1 1 1 1 1 1 f . . . . . . 
+. . . f 1 b 1 b 1 b 1 1 1 1 d d d f . . . . . . 
+. . . f b f b f f c f 1 1 f c d d f . . . . . . 
+. . . . . . f c f 1 1 1 1 1 1 b b f . . . . . . 
+. . . . . . . c c b d b 1 b 1 f c f . . . . . . 
+. . . . . . . f f f b f b f d f f . . . . . . . 
+. . . . . . . . f f f f f f f f . . . . . . . . 
+. . . . . . . . f f f f f f f f f f f . . . . . 
+. . . . . . . . . f f f f f c 1 1 1 c f . . . . 
+. . . . . . . . . f f f f f 1 b 1 b 1 f . . . . 
+. . . . . . . . . . f f f f b f b f b f . . . . 
+. . . . . . . . . . . f f f f . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get"><field name="VAR" id="de]w;Y`y$Vxr_*8}TJnN">pitcher</field></block></value></block></next></block></next></block></statement></block><block type="keyonevent" x="574" y="0"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="QW-Ex}0WpMyNf8w(_cjp">projectile</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromsprite"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . 1 1 1 
+. . . . . . . . . . . 1 1 1 1 1 
+. . . . . . . . . 1 1 1 1 1 1 1 
+. . . . . . . . . 1 1 1 . 1 1 1 
+. . . . . . . . 1 1 1 . . . . . 
+. . . . . . . 1 1 1 . . . . . . 
+. . . . . . 1 1 1 . . . . . . . 
+. . . . . 1 1 1 . . . . . . . . 
+. . . . 1 1 1 . . . . . . . . . 
+. 1 1 1 1 . . . . . . . . . . . 
+. 1 1 1 . . . . . . . . . . . . 
+. 1 1 1 . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="sprite"><block type="variables_get"><field name="VAR" id="de]w;Y`y$Vxr_*8}TJnN">pitcher</field></block></value><value name="vx"><shadow type="spriteSpeedPicker"><field name="speed">50</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker"><field name="speed">-15</field></shadow></value></block></value></block></statement></block></xml>
